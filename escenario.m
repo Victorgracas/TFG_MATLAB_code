@@ -1,4 +1,4 @@
-function [maletas_pos, maletas_dim, tags_pos, antennas_pos, vectors_dir] = escenario(reader_pos, graficas)
+function [maletas_pos, maletas_dim, tags_pos, antennas_pos, vectors_dir] = escenario(reader_pos, num_antenna, graficas)
     % Parámetros de la caja (en metros)
     length_caja = 110 * 0.0254; % 110 pulgadas a metros
     width_caja = 50 * 0.0254;   % 50 pulgadas a metros
@@ -13,7 +13,7 @@ function [maletas_pos, maletas_dim, tags_pos, antennas_pos, vectors_dir] = escen
 
 
     % Posiciones de las antenas en el lector (agregamos una antena)
-    num_antenna = 1;
+    %num_antenna = 2;
     % reader_pos = [
     %      0, length_caja/2, height_caja; % Primera antena
     %      %width_caja, length_caja/2, height_caja;

@@ -452,7 +452,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Escenari 5 - Comparar inclinaciones (Modificado para estilo de gráfica)
 % Definir los parámetros de la simulación
-num_iteraciones = 300; % Número de iteraciones para cada configuración
+num_iteraciones = 1; % Número de iteraciones para cada configuración
 
 length_caja = 110 * 0.0254; % 110 pulgadas a metros
 width_caja = 50 * 0.0254;   % 50 pulgadas a metros
